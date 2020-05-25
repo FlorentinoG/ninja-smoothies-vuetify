@@ -14,8 +14,6 @@ import * as firebase from 'firebase'
  // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
  
-const db = firebase.firestore()
 
-export default {
-    db
-}
+
+export default firebase.firestore()
