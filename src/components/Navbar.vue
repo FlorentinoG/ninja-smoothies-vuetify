@@ -6,18 +6,21 @@
                     Ninja Smoothies
                 </span>
             </router-link>
-            <router-link :to="{ name: '' }">
-                <v-btn absolute dark fab bottom right color="pink">
-                    <v-icon>mdi-plus</v-icon>
-                </v-btn>
-            </router-link>
+            
+                <addSmoothie />
+            
         </v-app-bar>
     </div>
 </template>
 
 <script>
+import addSmoothie from './addSmoothie'
+
     export default {
         name: "Navbar",
+        components:{
+            addSmoothie
+        }
     };
 </script>
 
