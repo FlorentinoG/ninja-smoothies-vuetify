@@ -1,1 +1,1 @@
-# ninja-smoothies w/ Vuetify
+#  Vuetify
