@@ -1,1 +1,3 @@
 #  Vuetify
+
+create smoothies recipes :) 
